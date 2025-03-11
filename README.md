@@ -1,8 +1,10 @@
 # Simple-3D-Former
 ## Environment Setup
   1. Use anaconda to create a VM environment
-     `conda create -n Simple-3D-Former Python==3.7.0`
-  2. Install the following packages
+     ```bash
+         conda create -n Simple-3D-Former Python==3.7.0
+         conda activate Simple-3D-Former
+  3. Install the following packages
      ```bash
         pip install torch
         pip install transformers
